@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class BasicCalculator {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter first number: ");
         double number1 = input.nextDouble();
