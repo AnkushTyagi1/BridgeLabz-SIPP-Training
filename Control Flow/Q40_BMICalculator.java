@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Q40_BMICalculator {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         double weight = sc.nextDouble();
         double height = sc.nextDouble() / 100.0;
