@@ -1,5 +1,5 @@
 public class CourseDiscount {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         double fee = 125000;
         double discountPercent = 10;
         double discount = fee * discountPercent / 100;
