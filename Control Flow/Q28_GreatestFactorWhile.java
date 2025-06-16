@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Q28_GreatestFactorWhile {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt(), counter = number - 1, greatestFactor = 1;
         while (counter >= 1) {
