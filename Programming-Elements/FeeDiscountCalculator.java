@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class FeeDiscountCalculator {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Student Fee (INR): ");
         double fee = input.nextDouble();
