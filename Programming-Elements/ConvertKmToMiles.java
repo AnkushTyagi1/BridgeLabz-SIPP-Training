@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ConvertKmToMiles {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner input = new Scanner(System.in);
         double km;
         System.out.print("Enter distance in km: ");
