@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class StudentGrades {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
 
         int students = sc.nextInt();
