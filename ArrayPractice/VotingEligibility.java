@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class VotingEligibility {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         int[] ages = new int[10];
         for (int i = 0; i < ages.length; i++) {
