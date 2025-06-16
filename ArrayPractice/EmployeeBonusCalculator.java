@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class EmployeeBonusCalculator {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         double[][] employeeData = new double[10][2];
         double[] bonus = new double[10];
