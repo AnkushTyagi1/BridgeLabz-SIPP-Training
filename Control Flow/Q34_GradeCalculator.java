@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Q34_GradeCalculator {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         int phy = sc.nextInt(), chem = sc.nextInt(), math = sc.nextInt();
         int total = phy + chem + math;
