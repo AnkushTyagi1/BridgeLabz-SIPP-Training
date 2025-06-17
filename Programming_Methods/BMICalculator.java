@@ -19,7 +19,7 @@ public class BMICalculator {
         }
         return status;
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         double[][] data = new double[10][3];
         for (int i = 0; i < 10; i++) {
