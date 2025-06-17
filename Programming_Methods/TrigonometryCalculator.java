@@ -7,7 +7,7 @@ public class TrigonometryCalculator {
         double tan = Math.tan(radians);
         return new double[]{sin, cos, tan};
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         double angle = scanner.nextDouble();
         double[] result = calculateTrigonometricFunctions(angle);
