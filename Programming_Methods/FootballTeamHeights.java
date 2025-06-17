@@ -30,7 +30,7 @@ public class FootballTeamHeights {
         return m;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         int[] h = generateRandomHeights(11);
         for (int x : h) System.out.print(x + " ");
         System.out.println();
