@@ -19,7 +19,7 @@ public class UnitConverter {
         double inches2cm = 2.54;
         return inches * inches2cm;
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         System.out.println("Yards to Feet: " + convertYardsToFeet(2));
         System.out.println("Feet to Yards: " + convertFeetToYards(6));
         System.out.println("Meters to Inches: " + convertMetersToInches(1.5));
