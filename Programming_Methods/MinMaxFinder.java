@@ -5,7 +5,7 @@ public class MinMaxFinder {
         int largest = Math.max(number1, Math.max(number2, number3));
         return new int[]{smallest, largest};
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         int number1 = scanner.nextInt();
         int number2 = scanner.nextInt();
