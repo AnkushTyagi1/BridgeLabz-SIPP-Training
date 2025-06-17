@@ -19,7 +19,7 @@ public class RandomNumberAnalysis {
         double avg = (double) sum / numbers.length;
         return new double[]{avg, min, max};
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         int[] randomNumbers = generate4DigitRandomArray(5);
         double[] result = findAverageMinMax(randomNumbers);
         System.out.println("Random Numbers: " + Arrays.toString(randomNumbers));
