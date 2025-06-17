@@ -11,7 +11,7 @@ public class CollinearityChecker {
         return area == 0;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         int x1 = sc.nextInt(), y1 = sc.nextInt();
         int x2 = sc.nextInt(), y2 = sc.nextInt();
