@@ -27,7 +27,7 @@ public class FactorAnalyzer {
         for (int f : factors) sum += Math.pow(f, 2);
         return sum;
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int[] factors = findFactors(number);
