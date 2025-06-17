@@ -39,7 +39,7 @@ public class ZaraBonusCalculator {
         System.out.println("Total\t" + (int) totalOld + "\t\t\t" + String.format("%.2f", totalBonus) + "\t" + String.format("%.2f", totalNew));
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         int n = 10;
         double[][] employeeData = generateEmployeeData(n);
         double[][] newData = calculateNewSalaries(employeeData);
