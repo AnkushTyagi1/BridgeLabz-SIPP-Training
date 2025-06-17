@@ -5,7 +5,7 @@ public class QuotientRemainder {
         int remainder = number % divisor;
         return new int[]{quotient, remainder};
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         int divisor = scanner.nextInt();
