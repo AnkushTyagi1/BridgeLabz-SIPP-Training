@@ -21,7 +21,7 @@ public class MeasurementConverter {
         double liters2gallons = 0.264172;
         return liters * liters2gallons;
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         System.out.println("Fahrenheit to Celsius: " + convertFahrenheitToCelsius(98.6));
         System.out.println("Celsius to Fahrenheit: " + convertCelsiusToFahrenheit(37));
         System.out.println("Pounds to Kilograms: " + convertPoundsToKilograms(150));
