@@ -17,7 +17,7 @@ public class ArrayIndexOutOfBoundsDemo {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         String[] names = new String[3];
         System.out.println("Enter 3 names:");
