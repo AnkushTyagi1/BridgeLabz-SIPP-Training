@@ -9,7 +9,7 @@ public class StringComparison {
         return true;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first string: ");
         String str1 = sc.next();
