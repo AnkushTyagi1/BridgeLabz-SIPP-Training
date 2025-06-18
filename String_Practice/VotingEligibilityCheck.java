@@ -4,7 +4,7 @@ public class VotingEligibilityCheck {
     public static int[] generateRandomAges(int n) {
         int[] ages = new int[n];
         for (int i = 0; i < n; i++) {
-            ages[i] = (int)(Math.random() * 90) + 10; // Random 2-digit age (10 to 99)
+            ages[i] = (int)(Math.random() * 90) + 10;
         }
         return ages;
     }
@@ -31,7 +31,7 @@ public class VotingEligibilityCheck {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
