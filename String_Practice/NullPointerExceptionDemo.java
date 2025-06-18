@@ -15,7 +15,7 @@ public class NullPointerExceptionDemo {
             System.out.println("Caught generic RuntimeException: " + e.getMessage());
         }
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         handleException();
     }
 }
