@@ -16,7 +16,7 @@ public class NumberFormatExceptionDemo {
             System.out.println("Caught generic RuntimeException: " + e.getMessage());
         }
     }
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter text to convert to number: ");
         String input = sc.nextLine();
