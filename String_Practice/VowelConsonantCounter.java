@@ -26,7 +26,7 @@ public class VowelConsonantCounter {
         return new int[]{vowels, consonants};
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = sc.nextLine();
