@@ -5,7 +5,7 @@ public class StudentScoreCard {
         int[][] marks = new int[students][3];
         for (int i = 0; i < students; i++) {
             for (int j = 0; j < 3; j++) {
-                marks[i][j] = (int)(Math.random() * 41 + 60); // Random 2-digit marks (60–100)
+                marks[i][j] = (int)(Math.random() * 41 + 60);
             }
         }
         return marks;
@@ -52,7 +52,7 @@ public class StudentScoreCard {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
