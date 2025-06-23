@@ -23,7 +23,7 @@ public class BankAccount {
     public void currentBalance(){
         System.out.println("Current Balance is : "+this.balance);
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         BankAccount b1=new BankAccount("Alice",123,100);
         b1.currentBalance();
         b1.Deposit(20);
