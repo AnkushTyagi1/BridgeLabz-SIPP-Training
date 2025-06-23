@@ -24,7 +24,7 @@ public class Student {
         System.out.println("Student's Marks : "+this.marks);
         System.out.println("Grade : "+this.Grade);
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         Student s1=new Student("Alice",123,88);
         s1.Grade();
         s1.print();
