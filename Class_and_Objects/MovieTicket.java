@@ -20,7 +20,7 @@ public class MovieTicket {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         MovieTicket ticket = new MovieTicket();
         ticket.bookTicket("Inception", "B12", 300.0);
         ticket.displayTicket();
