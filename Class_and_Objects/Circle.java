@@ -9,7 +9,7 @@ public class Circle {
     public void Circumference(){
         System.out.println(2*3.14*this.radius);
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         Circle c1=new Circle(10);
         c1.Area();
         c1.Circumference();
