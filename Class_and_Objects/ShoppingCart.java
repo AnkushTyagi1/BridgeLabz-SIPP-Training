@@ -46,7 +46,7 @@ public class ShoppingCart {
         System.out.println("Total Cost: ₹" + total);
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         ShoppingCart cart = new ShoppingCart();
         cart.addItem("Laptop", 50000, 1);
         cart.addItem("Mouse", 1000, 2);
