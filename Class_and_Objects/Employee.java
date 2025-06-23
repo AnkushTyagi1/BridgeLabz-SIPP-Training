@@ -13,7 +13,7 @@ public class Employee {
         System.out.println("Employee id : "+this.id);
         System.out.println("Employee salary : "+this.salary);
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         Employee E1=new Employee("Alice","Alice@gmail.com",100000);
         E1.display();
     }
