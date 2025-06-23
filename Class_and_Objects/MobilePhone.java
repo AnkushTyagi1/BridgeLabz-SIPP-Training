@@ -12,7 +12,7 @@ public class MobilePhone {
         System.out.println(this.model);
         System.out.println(this.price);
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         MobilePhone m1=new MobilePhone("OPPO","A52",15000);
         m1.display();
     }
