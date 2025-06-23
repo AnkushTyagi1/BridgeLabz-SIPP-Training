@@ -19,7 +19,7 @@ public class PalindromeChecker {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         PalindromeChecker checker = new PalindromeChecker("Madam");
         checker.displayResult();
     }
