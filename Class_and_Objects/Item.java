@@ -10,7 +10,7 @@ public class Item {
     public void price(int quantity){
         System.out.println(this.price*quantity);
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         Item A=new Item("xyx","toy",100);
         A.price(2);
     }
