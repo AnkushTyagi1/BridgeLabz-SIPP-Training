@@ -13,7 +13,7 @@ public class CarRental {
     public void cost(){
         System.out.println(this.rentalDays * 1200);
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter customer name : ");
         String name=sc.nextLine();
