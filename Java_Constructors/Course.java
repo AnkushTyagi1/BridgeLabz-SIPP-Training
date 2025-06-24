@@ -16,7 +16,7 @@ public class Course {
     public static void updateInstituteName(String str){
         instituteName=str;
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         Course c1=new Course("DSA",2,4000.60);
         Course c2=new Course("MERN",5,10000);
         c1.displayCourseDetails();
