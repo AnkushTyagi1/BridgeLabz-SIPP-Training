@@ -21,7 +21,7 @@ public class Student {
             super(rollNumber, name, CGPA);
         }
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         Student s1=new Student(2215274,"Alice",9.2);
         s1.modifyCGPA(9.3);
         PostgraduateStudent p1=new PostgraduateStudent(2215123,"Bob",9.1);
