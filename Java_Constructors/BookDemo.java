@@ -20,7 +20,7 @@ class DigitalBook extends Book {
 }
 
 public class BookDemo {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         DigitalBook ebook = new DigitalBook();
         ebook.ISBN = "978-0134685991";
         ebook.title = "Effective Java";
