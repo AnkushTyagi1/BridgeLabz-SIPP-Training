@@ -20,7 +20,7 @@ public class Library {
             }
         }
     }
-    public static void main(String[] args){
+    public static void main(String... args){
         Book b1=new Book("Harry Potter","Alice",120.10,10);
         b1.borrow(5);
         b1.borrow(10);
