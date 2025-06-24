@@ -17,7 +17,7 @@ public class Product {
         System.out.println(totalProducts);
     }
 
-    public static void main(String[] args){
+    public static void main(String... args){
         Product p1=new Product("mobile",12000.50);
         Product p2=new Product("laptop",89000.40);
 
