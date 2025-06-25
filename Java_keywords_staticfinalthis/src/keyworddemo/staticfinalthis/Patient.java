@@ -31,7 +31,7 @@ public class Patient {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Patient p1 = new Patient(501, "Anjali", 30, "Fever");
         Patient p2 = new Patient(502, "Rahul", 45, "Diabetes");
 
