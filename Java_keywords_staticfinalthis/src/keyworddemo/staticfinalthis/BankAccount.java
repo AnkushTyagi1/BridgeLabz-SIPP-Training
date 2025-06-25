@@ -25,7 +25,7 @@ public class BankAccount {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String... args) {
 		BankAccount ba1=new BankAccount(1001,"Bob");
 		BankAccount ba2=new BankAccount(1002,"Alice");
 		
