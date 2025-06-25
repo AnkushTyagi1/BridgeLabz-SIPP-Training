@@ -23,7 +23,7 @@ public class Book {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String... args) {
 		 Book book1 = new Book("Java Basics", "John Doe", "ISBN001");
 	     Book book2 = new Book("OOP in Java", "Jane Smith", "ISBN002");
 
