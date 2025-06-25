@@ -29,7 +29,7 @@ public class Product {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Product p1 = new Product(201, "Laptop", 50000, 2);
         Product p2 = new Product(202, "Mouse", 500, 5);
 
