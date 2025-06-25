@@ -27,7 +27,7 @@ class Employee {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Employee e1 = new Employee(1, "Arun", "Developer");
         Employee e2 = new Employee(2, "Meera", "Tester");
 
