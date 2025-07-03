@@ -99,7 +99,7 @@ public class ECommerceDemo {
      }
  }
 
- public static void main(String[] args) {
+ public static void main(String... args) {
      List<Product> products = new ArrayList<>();
      products.add(new Electronics(1, "Smartphone", 20000));
      products.add(new Clothing(2, "T-Shirt", 1000));
