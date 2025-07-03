@@ -92,7 +92,7 @@ class EmployeeWithDepartment extends FullTimeEmployee implements Department {
 
 //Main class
 public class EPICDemo {
- public static void main(String[] args) {
+ public static void main(String... args) {
      List<Employee> employees = new ArrayList<>();
 
      FullTimeEmployee fte = new FullTimeEmployee(1, "Alice", 50000);
