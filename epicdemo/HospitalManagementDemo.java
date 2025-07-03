@@ -87,7 +87,7 @@ class OutPatient extends Patient implements MedicalRecord {
 
 //Main Class
 public class HospitalManagementDemo {
- public static void main(String[] args) {
+ public static void main(String... args) {
      List<Patient> patients = new ArrayList<>();
      InPatient p1 = new InPatient("P001", "Alice", 30, 4, 1500);
      OutPatient p2 = new OutPatient("P002", "Bob", 25, 500);
