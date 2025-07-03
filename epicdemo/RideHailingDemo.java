@@ -108,7 +108,7 @@ class RideAuto extends RideVehicle implements GPS {
 
 //Main class
 public class RideHailingDemo {
- public static void main(String[] args) {
+ public static void main(String... args) {
      List<RideVehicle> rides = new ArrayList<>();
      rides.add(new RideCar("CAR123", "Ravi", 12.0, "MG Road"));
      rides.add(new RideBike("BIKE456", "Sita", 8.0, "BTM Layout"));
