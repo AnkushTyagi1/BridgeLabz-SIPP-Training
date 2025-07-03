@@ -108,7 +108,7 @@ class DVD extends LibraryItem implements Reservable {
 
 //Main Class
 public class LibraryManagementDemo {
- public static void main(String[] args) {
+ public static void main(String... args) {
      List<LibraryItem> items = new ArrayList<>();
      items.add(new Book("B1", "Java Basics", "James Gosling"));
      items.add(new Magazine("M1", "Tech Monthly", "Various"));
