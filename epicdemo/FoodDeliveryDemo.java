@@ -77,7 +77,7 @@ class NonVegItem extends FoodItem implements Discountable {
 
 //Main Class
 public class FoodDeliveryDemo {
- public static void main(String[] args) {
+ public static void main(String... args) {
      List<FoodItem> order = new ArrayList<>();
      order.add(new VegItem("Paneer Butter Masala", 200, 2));
      order.add(new NonVegItem("Chicken Biryani", 250, 1));
