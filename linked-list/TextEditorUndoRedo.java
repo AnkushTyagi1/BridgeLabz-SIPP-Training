@@ -77,7 +77,7 @@ public class TextEditorUndoRedo {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         TextEditorUndoRedo editor = new TextEditorUndoRedo();
         editor.addState("Text 1");
         editor.addState("Text 2");
