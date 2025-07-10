@@ -119,7 +119,7 @@ public class StudentRecordManagement {
         System.out.println("Roll number not found");
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         StudentRecordManagement list = new StudentRecordManagement();
         list.addAtBeginning(1, "Alice", 20, 85.5);
         list.addAtEnd(2, "Bob", 21, 90.0);
