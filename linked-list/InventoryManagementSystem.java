@@ -187,7 +187,7 @@ public class InventoryManagementSystem {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         InventoryManagementSystem inventory = new InventoryManagementSystem();
         inventory.addAtBeginning("Laptop", 101, 10, 999.99);
         inventory.addAtEnd("Phone", 102, 20, 499.99);
