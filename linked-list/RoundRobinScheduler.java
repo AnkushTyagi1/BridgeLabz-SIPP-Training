@@ -117,7 +117,7 @@ public class RoundRobinScheduler {
         return count;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         RoundRobinScheduler scheduler = new RoundRobinScheduler(2);
         scheduler.addAtEnd(1, 10, 3);
         scheduler.addAtEnd(2, 5, 1);
