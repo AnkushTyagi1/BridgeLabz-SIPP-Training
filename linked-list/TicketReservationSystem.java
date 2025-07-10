@@ -111,7 +111,7 @@ public class TicketReservationSystem {
         return count;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         TicketReservationSystem system = new TicketReservationSystem();
         system.addAtEnd(1, "Alice", "Inception", "A1", "2025-07-03 10:00");
         system.addAtEnd(2, "Bob", "Titanic", "B2", "2025-07-03 12:00");
