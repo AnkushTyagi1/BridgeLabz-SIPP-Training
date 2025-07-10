@@ -129,7 +129,7 @@ public class SocialMediaFriendConnections {
         return null;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         SocialMediaFriendConnections network = new SocialMediaFriendConnections();
         network.addUser(1, "Alice", 25);
         network.addUser(2, "Bob", 30);
