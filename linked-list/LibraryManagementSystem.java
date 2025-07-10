@@ -168,7 +168,7 @@ public class LibraryManagementSystem {
         return count;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         LibraryManagementSystem library = new LibraryManagementSystem();
         library.addAtBeginning("1984", "Orwell", "Dystopian", 101, true);
         library.addAtEnd("Pride and Prejudice", "Austen", "Romance", 102, true);
