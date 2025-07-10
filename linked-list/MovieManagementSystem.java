@@ -155,7 +155,7 @@ public class MovieManagementSystem {
         System.out.println("Movie not found");
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         MovieManagementSystem list = new MovieManagementSystem();
         list.addAtBeginning("Inception", "Nolan", 2010, 8.8);
         list.addAtEnd("Titanic", "Cameron", 1997, 7.8);
