@@ -131,7 +131,7 @@ public class TaskScheduler {
         } while (current != head);
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         TaskScheduler scheduler = new TaskScheduler();
         scheduler.addAtBeginning(1, "Task1", 3, "2025-07-04");
         scheduler.addAtEnd(2, "Task2", 1, "2025-07-05");
